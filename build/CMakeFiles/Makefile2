@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = /home/taker/github_repo/c++_week/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/classtest1.dir/all
+all: CMakeFiles/string3_3.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,34 +71,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/classtest1.dir/clean
+clean: CMakeFiles/string3_3.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/classtest1.dir
+# Target rules for target CMakeFiles/string3_3.dir
 
 # All Build rule for target.
-CMakeFiles/classtest1.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/classtest1.dir/build.make CMakeFiles/classtest1.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/classtest1.dir/build.make CMakeFiles/classtest1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/taker/github_repo/c++_week/build/CMakeFiles --progress-num=1,2,3 "Built target classtest1"
-.PHONY : CMakeFiles/classtest1.dir/all
+CMakeFiles/string3_3.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/string3_3.dir/build.make CMakeFiles/string3_3.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/string3_3.dir/build.make CMakeFiles/string3_3.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/taker/github_repo/c++_week/build/CMakeFiles --progress-num=1,2 "Built target string3_3"
+.PHONY : CMakeFiles/string3_3.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/classtest1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/taker/github_repo/c++_week/build/CMakeFiles 3
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/classtest1.dir/all
+CMakeFiles/string3_3.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/taker/github_repo/c++_week/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/string3_3.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/taker/github_repo/c++_week/build/CMakeFiles 0
-.PHONY : CMakeFiles/classtest1.dir/rule
+.PHONY : CMakeFiles/string3_3.dir/rule
 
 # Convenience name for target.
-classtest1: CMakeFiles/classtest1.dir/rule
-.PHONY : classtest1
+string3_3: CMakeFiles/string3_3.dir/rule
+.PHONY : string3_3
 
 # clean rule for target.
-CMakeFiles/classtest1.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/classtest1.dir/build.make CMakeFiles/classtest1.dir/clean
-.PHONY : CMakeFiles/classtest1.dir/clean
+CMakeFiles/string3_3.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/string3_3.dir/build.make CMakeFiles/string3_3.dir/clean
+.PHONY : CMakeFiles/string3_3.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

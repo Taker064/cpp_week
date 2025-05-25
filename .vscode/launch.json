@@ -5,10 +5,10 @@
             "name": "CMake: Debug",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/build/classtest",
+            "program": "${command:cmake.launchTargetPath}",
             "args": [],
             "stopAtEntry": false,
-            "cwd": "${workspaceFolder}",
+            "cwd": "${command:cmake.launchTargetDirectory}",
             "environment": [],
             "externalConsole": false,  // 外部コンソールで実行
             "MIMode": "gdb",  // 使用するデバッガー（GDBを指定）

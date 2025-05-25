@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/plob1-2.dir/src/plob1-2.cpp.o -o plob1-2 

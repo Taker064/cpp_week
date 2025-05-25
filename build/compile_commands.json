@@ -1,12 +1,7 @@
 [
 {
   "directory": "/home/taker/github_repo/c++_week/build",
-  "command": "/usr/bin/g++   -g -o CMakeFiles/classtest1.dir/src/classtest.cpp.o -c /home/taker/github_repo/c++_week/src/classtest.cpp",
-  "file": "/home/taker/github_repo/c++_week/src/classtest.cpp"
-},
-{
-  "directory": "/home/taker/github_repo/c++_week/build",
-  "command": "/usr/bin/g++   -g -o CMakeFiles/classtest1.dir/src/sample.cpp.o -c /home/taker/github_repo/c++_week/src/sample.cpp",
-  "file": "/home/taker/github_repo/c++_week/src/sample.cpp"
+  "command": "/usr/bin/g++   -g -o CMakeFiles/string3_3.dir/src/string3_3.cpp.o -c /home/taker/github_repo/c++_week/src/string3_3.cpp",
+  "file": "/home/taker/github_repo/c++_week/src/string3_3.cpp"
 }
 ]

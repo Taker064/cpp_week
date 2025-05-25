@@ -1,3 +1,3 @@
-/home/taker/github_repo/c++_week/build/CMakeFiles/classtest1.dir
+/home/taker/github_repo/c++_week/build/CMakeFiles/string3_3.dir
 /home/taker/github_repo/c++_week/build/CMakeFiles/edit_cache.dir
 /home/taker/github_repo/c++_week/build/CMakeFiles/rebuild_cache.dir

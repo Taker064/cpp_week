@@ -117,65 +117,41 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named classtest1
+# Target rules for targets named string3_3
 
 # Build rule for target.
-classtest1: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 classtest1
-.PHONY : classtest1
+string3_3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 string3_3
+.PHONY : string3_3
 
 # fast build rule for target.
-classtest1/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/classtest1.dir/build.make CMakeFiles/classtest1.dir/build
-.PHONY : classtest1/fast
+string3_3/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/string3_3.dir/build.make CMakeFiles/string3_3.dir/build
+.PHONY : string3_3/fast
 
-src/classtest.o: src/classtest.cpp.o
-.PHONY : src/classtest.o
-
-# target to build an object file
-src/classtest.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/classtest1.dir/build.make CMakeFiles/classtest1.dir/src/classtest.cpp.o
-.PHONY : src/classtest.cpp.o
-
-src/classtest.i: src/classtest.cpp.i
-.PHONY : src/classtest.i
-
-# target to preprocess a source file
-src/classtest.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/classtest1.dir/build.make CMakeFiles/classtest1.dir/src/classtest.cpp.i
-.PHONY : src/classtest.cpp.i
-
-src/classtest.s: src/classtest.cpp.s
-.PHONY : src/classtest.s
-
-# target to generate assembly for a file
-src/classtest.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/classtest1.dir/build.make CMakeFiles/classtest1.dir/src/classtest.cpp.s
-.PHONY : src/classtest.cpp.s
-
-src/sample.o: src/sample.cpp.o
-.PHONY : src/sample.o
+src/string3_3.o: src/string3_3.cpp.o
+.PHONY : src/string3_3.o
 
 # target to build an object file
-src/sample.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/classtest1.dir/build.make CMakeFiles/classtest1.dir/src/sample.cpp.o
-.PHONY : src/sample.cpp.o
+src/string3_3.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/string3_3.dir/build.make CMakeFiles/string3_3.dir/src/string3_3.cpp.o
+.PHONY : src/string3_3.cpp.o
 
-src/sample.i: src/sample.cpp.i
-.PHONY : src/sample.i
+src/string3_3.i: src/string3_3.cpp.i
+.PHONY : src/string3_3.i
 
 # target to preprocess a source file
-src/sample.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/classtest1.dir/build.make CMakeFiles/classtest1.dir/src/sample.cpp.i
-.PHONY : src/sample.cpp.i
+src/string3_3.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/string3_3.dir/build.make CMakeFiles/string3_3.dir/src/string3_3.cpp.i
+.PHONY : src/string3_3.cpp.i
 
-src/sample.s: src/sample.cpp.s
-.PHONY : src/sample.s
+src/string3_3.s: src/string3_3.cpp.s
+.PHONY : src/string3_3.s
 
 # target to generate assembly for a file
-src/sample.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/classtest1.dir/build.make CMakeFiles/classtest1.dir/src/sample.cpp.s
-.PHONY : src/sample.cpp.s
+src/string3_3.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/string3_3.dir/build.make CMakeFiles/string3_3.dir/src/string3_3.cpp.s
+.PHONY : src/string3_3.cpp.s
 
 # Help Target
 help:
@@ -185,13 +161,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... classtest1"
-	@echo "... src/classtest.o"
-	@echo "... src/classtest.i"
-	@echo "... src/classtest.s"
-	@echo "... src/sample.o"
-	@echo "... src/sample.i"
-	@echo "... src/sample.s"
+	@echo "... string3_3"
+	@echo "... src/string3_3.o"
+	@echo "... src/string3_3.i"
+	@echo "... src/string3_3.s"
 .PHONY : help
 
 

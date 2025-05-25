@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/sample3-1.dir/src/sample3-1.cpp.o CMakeFiles/sample3-1.dir/src/main3_1.cpp.o -o sample3-1 
